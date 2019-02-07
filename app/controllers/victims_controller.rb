@@ -12,6 +12,6 @@ class VictimsController < ApplicationController
   end
 
   def create
-    
+
   end
 end

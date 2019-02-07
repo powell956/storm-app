@@ -13,5 +13,6 @@ class StormsController < ApplicationController
   end
 
   def create
+    
   end
 end
