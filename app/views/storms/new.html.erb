@@ -1,0 +1,7 @@
+
+<%= form_for @storm, url: {action: "create"}, html: {class: "nifty_form"} do |f| %>
+
+  <%= f.text_field :name %>
+  <%= f.number_field :severity %>
+  <%= f.submit "Create" %>
+<% end %>
